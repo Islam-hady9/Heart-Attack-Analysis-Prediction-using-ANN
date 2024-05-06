@@ -5,6 +5,9 @@
 
 This repository contains a Jupyter notebook that explores the risk factors associated with heart attacks and builds an Artificial Neural Network (ANN) to predict heart attack occurrence based on various medical and demographic features.
 
+## Dataset
+From [Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data)
+
 ## Notebook Content
 
 ### 1. **Introduction**
