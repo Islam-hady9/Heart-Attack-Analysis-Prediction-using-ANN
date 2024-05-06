@@ -1,6 +1,6 @@
 # Heart Attack Analysis Prediction using ANN
 
-## Heart Attack Analysis & Prediction using Artificial Neural Network
+## Heart Attack Analysis & Prediction using Deep Learning (Artificial Neural Network)
 ![Heart Attack](https://myacare.com/uploads/AdminBlogs/91d19c6155d145348eb5dcd8b161fd36.png)
 
 This repository contains a Jupyter notebook that explores the risk factors associated with heart attacks and builds an Artificial Neural Network (ANN) to predict heart attack occurrence based on various medical and demographic features.
