@@ -54,7 +54,7 @@ pip install pandas numpy matplotlib seaborn tensorflow scikit-learn plotly
 ```
 
 ## Developers
-- [Islam Abdelhady Hassanein](https://github.com/Islam-hady9)
+- [Islam Abd_Elhady Hassanein](https://github.com/Islam-hady9)
 - [Enas Ragab Abdel_Latif](https://github.com/EnasRagab22)
 - [Mariam Tarek Saad](https://github.com/Mariam-Tarek6)
 
