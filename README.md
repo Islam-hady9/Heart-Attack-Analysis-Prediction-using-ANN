@@ -1,62 +1,83 @@
 # Heart Attack Analysis Prediction using ANN
 
-## Heart Attack Analysis & Prediction using Deep Learning (Artificial Neural Network)
-![Heart Attack](https://myacare.com/uploads/AdminBlogs/91d19c6155d145348eb5dcd8b161fd36.png)
+<div align="center">
+  <p align="center">
+    <img src="https://myacare.com/uploads/AdminBlogs/91d19c6155d145348eb5dcd8b161fd36.png" alt="Heart Attack" />
+  </p>
+<p align="center">
+<strong>Heart Attack Analysis & Prediction using Deep Learning (Artificial Neural Network)</strong></p>
+</div>
 
-This repository contains a Jupyter notebook that explores the risk factors associated with heart attacks and builds an Artificial Neural Network (ANN) to predict heart attack occurrence based on various medical and demographic features.
+---
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Dataset](#dataset)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Model Architecture](#model-architecture)
+6. [Results](#results)
+7. [Contributors](#contributors)
+8. [License](#license)
+
+## Introduction
+
+This project involves the analysis and prediction of heart attacks using Artificial Neural Networks (ANN). The goal is to develop a predictive model that can accurately identify the likelihood of a heart attack based on various health metrics and patient data.
 
 ## Dataset
-From [Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data)
 
-## Notebook Content
+The dataset used for this project is sourced from the [Heart Attack Analysis & Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data). It includes features such as age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise, the slope of the peak exercise ST segment, number of major vessels, and thalassemia.
 
-### 1. **Introduction**
-   - The notebook begins with an introduction to the problem statement, explaining the significance of predicting heart attacks using various clinical and demographic data.
+## Installation
 
-### 2. **Data Loading**
-   - Data is loaded into a pandas DataFrame. This data includes attributes like age, sex, cholesterol levels, and other relevant health metrics that could influence heart attack risk.
+To run this project locally, follow these steps:
 
-### 3. **Exploratory Data Analysis (EDA)**
-   - **Data Inspection**: Initial checks for data types, missing values, and statistical summaries.
-   - **Visualization**: Multiple visualizations are generated to understand the distribution of individual variables and their relationships with the heart attack outcome.
-
-### 4. **Data Preprocessing**
-   - **Feature Engineering**: Techniques applied include encoding categorical variables and scaling numerical variables to prepare the data for neural network modeling.
-   - **Data Splitting**: The data is split into training and testing sets to evaluate the model's performance.
-
-### 5. **Model Building**
-   - **ANN Architecture**: An ANN model is constructed using TensorFlow and Keras, consisting of multiple dense layers with activation functions suited for binary classification.
-   - **Compilation**: The model is compiled with an appropriate optimizer and loss function for binary classification.
-   - **Training**: The model is trained on the training data using a validation split to monitor performance and prevent overfitting with an early stopping callback.
-
-### 6. **Model Evaluation**
-   - **Performance Metrics**: After training, the model is evaluated on the test set, and metrics like accuracy and loss are reported.
-   - **Visualization**: Training history (loss and accuracy over epochs) is visualized to assess learning progress.
-
-### 7. **Prediction**
-   - **Making Predictions**: The trained model is used to predict heart attack risk on unseen test data.
-   - **Result Analysis**: Predictions are analyzed and compared with actual labels to evaluate the model's practical utility.
-
-### 8. **Conclusion**
-   - The concluding section discusses the model's performance, insights gained from the analysis, and potential improvements for future iterations.
-
-## Insights and Observations
-- The notebook contains detailed insights derived from EDA, highlighting key risk factors and their impact on heart attack probability.
-- Insights from the model's predictions are discussed, providing a practical understanding of its efficacy in real-world scenarios.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Islam-hady9/Heart-Attack-Analysis-Prediction-using-ANN.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Heart-Attack-Analysis-Prediction-using-ANN
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
-- To run this notebook, ensure you have the required libraries installed (as listed in the dependencies section).
-- Execute the cells in sequence to replicate the analysis and model training.
 
-## Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn tensorflow scikit-learn plotly
-```
+To run the entire Jupyter Notebook for analysis and prediction, follow these steps:
 
-## Developers
-- [Islam Abd_Elhady Hassanein](https://github.com/Islam-hady9)
-- [Enas Ragab Abdel_Latif](https://github.com/EnasRagab22)
-- [Mariam Tarek Saad](https://github.com/Mariam-Tarek6)
+1. Ensure the dataset is in the correct format and available in the project directory.
+2. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+3. Open the `Heart_Attack_Analysis_Prediction.ipynb` file from the Jupyter Notebook dashboard.
+4. Run all cells in the notebook to perform the data analysis, model training, and prediction steps.
+
+## Model Architecture
+
+The ANN model is constructed using the following layers:
+
+1. Input Layer: Corresponding to the number of features in the dataset.
+2. Hidden Layers: Multiple hidden layers with ReLU activation functions.
+3. Output Layer: A single neuron with a sigmoid activation function to output the probability of a heart attack.
+
+The model is trained using the Adam optimizer and binary cross-entropy loss function.
+
+## Results
+
+The model achieves an accuracy of XX% on the test set, with a precision of YY% and a recall of ZZ%. Detailed results and model evaluation metrics can be found in the `results` directory.
+
+## Contributors
+
+- Islam Abd_Elhady Hassanein (Project Lead)
+- Enas Ragab Abdel_Latif
+- Mariam Tarek Saad
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
