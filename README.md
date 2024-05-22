@@ -133,7 +133,7 @@ The model achieves an accuracy of 88.5% on the test set, with a precision of 87%
 ### Confusion Matrix Visualization
 ![Confusion Matrix Plot](https://github.com/Islam-hady9/Heart-Attack-Analysis-Prediction-using-ANN/blob/main/Plots_Outputs/cm_plot.png)
 
-### Plots Training and Validation Accuracy and Loss for Each Fold on Shared Plots:
+### Plots Training and Validation Accuracy and Loss for Each Fold on Shared Plots
 ![Folds Plot](https://github.com/Islam-hady9/Heart-Attack-Analysis-Prediction-using-ANN/blob/main/Plots_Outputs/folds_plot.png)
 
 ## Contributors
